@@ -17,9 +17,6 @@
 							<Property Name="ProcessName">
 								<Value PropertyType="0" Value="notepad" Type="5" />
 							</Property>
-							<Property Name="Index">
-								<Value PropertyType="0" Value="2" Type="0" />
-							</Property>
 						</Properties>
 						<Children>
 							<Child Name="wndNotepad" Key="{48ACD610-1B72-4BDD-BDB9-AA94AB4F21CE}" ParallelWalk="True">
