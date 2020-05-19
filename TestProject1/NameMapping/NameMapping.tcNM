@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="6" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}" ParallelWalk="True">
+		<Children>
+			<Child Name="Sys" Key="{4B873DC8-A1D2-4F5B-90A9-0AD39551B3FF}" ParallelWalk="True">
+				<Properties>
+					<Property Name="Name">
+						<Value PropertyType="0" Value="Sys" Type="5" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="notepad" Key="{CE3FA356-C8E5-4C14-BFD1-B62C0CDF8141}" ParallelWalk="True">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value PropertyType="0" Value="notepad" Type="5" />
+							</Property>
+							<Property Name="Index">
+								<Value PropertyType="0" Value="2" Type="0" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="wndNotepad" Key="{48ACD610-1B72-4BDD-BDB9-AA94AB4F21CE}" ParallelWalk="True">
+								<Image FileName="-115140844" Left="0" Top="0" Right="1289" Bottom="736" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value PropertyType="0" Value="Notepad" Type="5" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="Edit" Key="{948D21B1-D829-4D70-A651-0BD032D98643}" ParallelWalk="True">
+										<Image FileName="-115140844" Left="8" Top="51" Right="1281" Bottom="728" />
+										<TypeInfo Item0="{04AF36B1-973B-41FA-B2AD-AAA43F626C4E}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value PropertyType="0" Value="Edit" Type="5" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="dlgAboutNotepad" Key="{1D7FA5F2-3A86-4794-9CCB-1C7C64C4D35B}" ParallelWalk="True">
+								<Image FileName="729257555" Left="0" Top="0" Right="474" Bottom="413" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value PropertyType="0" Value="#32770" Type="5" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value PropertyType="0" Value="About Notepad" Type="5" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="btnOK" Key="{C5B9D9BE-9148-4C1F-8812-C7E52C0EB67A}" ParallelWalk="True">
+										<Image FileName="729257555" Left="383" Top="373" Right="458" Bottom="396" />
+										<TypeInfo Item0="{E5E152AA-6C89-4CAC-9535-338E86C1DD67}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value PropertyType="0" Value="Button" Type="5" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value PropertyType="0" Value="OK" Type="5" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="dlgNotepad" Key="{BE7A90D1-943F-4D06-9D68-D14F4E2139D2}" ParallelWalk="True">
+								<Image FileName="-1874826576" Left="0" Top="0" Right="366" Bottom="141" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value PropertyType="0" Value="#32770" Type="5" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value PropertyType="0" Value="Notepad" Type="5" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="DirectUIHWND" Key="{A02A09BA-4525-42A1-8FB1-E50A78B1338C}" ParallelWalk="True">
+										<Image FileName="-1874826576" Left="8" Top="31" Right="358" Bottom="133" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value PropertyType="0" Value="DirectUIHWND" Type="5" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="CtrlNotifySink" Key="{B35DAD4E-B301-4CFA-9605-F7F9FF34B454}" ParallelWalk="True">
+												<Image FileName="-1874826576" Left="178" Top="101" Right="270" Bottom="124" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value PropertyType="0" Value="CtrlNotifySink" Type="5" />
+													</Property>
+													<Property Name="WndCaption">
+														<Value PropertyType="0" Value="" Type="5" />
+													</Property>
+													<Property Name="Index">
+														<Value PropertyType="0" Value="8" Type="0" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="btnDontSave" Key="{D4F8A425-072E-4CF5-9064-2DE15507C591}" ParallelWalk="True">
+														<Image FileName="-1874826576" Left="178" Top="101" Right="270" Bottom="124" />
+														<TypeInfo Item0="{E5E152AA-6C89-4CAC-9535-338E86C1DD67}" />
+														<Properties>
+															<Property Name="WndClass">
+																<Value PropertyType="0" Value="Button" Type="5" />
+															</Property>
+															<Property Name="WndCaption">
+																<Value PropertyType="0" Value="Do&amp;n&apos;t Save" Type="5" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="notepad" Owner="{CE3FA356-C8E5-4C14-BFD1-B62C0CDF8141}">
+			<Child Name="wndNotepad" Owner="{48ACD610-1B72-4BDD-BDB9-AA94AB4F21CE}">
+				<Child Name="Edit" Owner="{948D21B1-D829-4D70-A651-0BD032D98643}" />
+			</Child>
+			<Child Name="dlgAboutNotepad" Owner="{1D7FA5F2-3A86-4794-9CCB-1C7C64C4D35B}">
+				<Child Name="btnOK" Owner="{C5B9D9BE-9148-4C1F-8812-C7E52C0EB67A}" />
+			</Child>
+			<Child Name="dlgNotepad" Owner="{BE7A90D1-943F-4D06-9D68-D14F4E2139D2}">
+				<Child Name="DirectUIHWND" Owner="{A02A09BA-4525-42A1-8FB1-E50A78B1338C}">
+					<Child Name="CtrlNotifySink" Owner="{B35DAD4E-B301-4CFA-9605-F7F9FF34B454}">
+						<Child Name="btnDontSave" Owner="{D4F8A425-072E-4CF5-9064-2DE15507C591}" />
+					</Child>
+				</Child>
+			</Child>
+		</Child>
+	</LogicalNodes>
+</Root>
